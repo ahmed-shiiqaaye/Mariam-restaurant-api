@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sass/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Aladin&family=Contrail+One&family=Fira+Sans:wght@400;500;600&family=Germania+One&family=Josefin+Sans&family=Lato&family=Lobster&family=Niconne&family=Nunito&family=Oleo+Script&family=Oswald:wght@300;400;500;700&family=PT+Sans:ital@1&family=Poppins:wght@400;500&family=Ubuntu:ital,wght@0,400;0,700;1,500&family=Yanone+Kaffeesatz:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>JavaScript Tutorials</title>
+</head>
+<body>
+    <!-- Header of the page -->
+    <Header class="Header">
+        <div class="container">
+            <a class="logo" href="index.html">
+                <i class="fas fa-utensils"></i>
+                Maraim <span>_.f.f.</span>
+            </a>
+            <div class="nav_links">
+                <ul>
+                    <li><a class="nav_link" href="#">Home</a></li>
+                    <li><a class="nav_link" href="#">Menu</a></li>
+                    <li><a class="nav_link" href="#">About</a></li>
+                    <li><a class="nav_link" href="#">Book Table</a></li>
+                </ul>
+            </div>
+            <div class="right_links">
+                <i class="fa fa-user"></i>
+                <i class="fa fa-shopping-cart"></i>
+                <i class="fa fa-search"></i>
+                <button class="btn">Order Online</button>
+            </div>
+            <div class="menu-bars">
+                <i class="fa fa-bars menu-bars" ></i>
+            </div>
+        </div>
+    </Header>
+    <!-- Ends -->
+
+   <!-- Home Page / Showcase -->
+    <div class="showcase">
+        <div class="container">
+            <button class="prev controller"><i class="fa fa-chevron-left"></i></button>
+            <button class="next controller"><i class="fa fa-chevron-right"></i></button>
+            <div class="crousel-radio">
+            </div>
+            <div class="text">
+                <h2>Fast food restaurant</h2>
+                <p>Doloremque, itaque aperiam facilis rerum, commodi, temporibus sapiente ad mollitia laborum quam quisquam esse error unde. Tempora ex doloremque, labore, sunt repellat dolore, iste magni quos nihil ducimus libero ipsam.</p>
+                <button class="btn">Order Now</button>
+            </div>
+        </div>
+    </div>
+   <!-- End -->
+
+   <!-- Cards and menu -->
+   <div class="Menu">
+       <div class="container container-one">
+           <div class="grid">
+               <!-- Card-one -->
+               <div class="card menu-card-one" id="">
+                <img class="" src="https://media.istockphoto.com/photos/closeup-of-hamburger-with-black-background-picture-id1316673633?b=1&k=20&m=1316673633&s=170667a&w=0&h=4SUWvRqmq9eblMeMAksP_jL_J-fMUvnQUBHzfRClOZk=" alt="">
+                   <div class="details">
+                       <p>Burger Double cheese</p>
+                       <h1>20% <span>off</span></h1>
+                       <button class="btn">Order now
+                           <i class="fa fa-shopping-cart"></i>
+                       </button>
+                   </div>
+               </div>
+               <!-- Card-two -->
+               <div class="card " id="">
+                <img class="menu-card-two" src="https://media.istockphoto.com/photos/closeup-of-hamburger-with-black-background-picture-id1316673633?b=1&k=20&m=1316673633&s=170667a&w=0&h=4SUWvRqmq9eblMeMAksP_jL_J-fMUvnQUBHzfRClOZk=" alt="">
+                   <div class="details">
+                       <p>Tasty thursday</p>
+                       <h1>15% <span>off</span></h1>
+                       <button class="btn">Order now
+                           <i class="fa fa-shopping-cart"></i>
+                       </button>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <div class="container container-two">
+           <div class="titles">
+               <h1>Our menu</h1>
+           </div>
+
+            <div class = "filter-btns">
+                <button type = "button" class = "filter-btn active" id = "all">all</button>
+                <button type = "button" class = "filter-btn" id = "burger">Burger</button>
+                <button type = "button" class = "filter-btn" id = "mcdonalds">McDonalds</button>
+                <button type = "button" class = "filter-btn" id = "kfc">KFC</button>
+            </div>
+
+            <div class="gridCards">
+                <div class="Filter-item all burger">
+                    <img src="https://images.unsplash.com/photo-1551782450-a2132b4ba21d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YnVyZ2VyfGVufDB8MHwwfGJsYWNrfA%3D%3D&auto=format&fit=crop&w=700&q=60" alt="">
+                    <div class="info">
+                        <h3 class="title">Delicious Burger</h3>
+                        <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                        <div class="flex">
+                            <h4 class="price">15%</h4>
+                            <div class="button"><i class="fa fa-shopping-cart"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Filter-item all burger">
+                    <img src="https://images.unsplash.com/photo-1610970878459-a0e464d7592b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YnVyZ2VyfGVufDB8MHwwfGJsYWNrfA%3D%3D&auto=format&fit=crop&w=700&q=60" alt="">
+                    <div class="info">
+                        <h3 class="title">Hamburger</h3>
+                        <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                        <div class="flex">
+                            <h4 class="price">15%</h4>
+                            <div class="button"><i class="fa fa-shopping-cart"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Filter-item all burger">
+                    <img src="https://images.unsplash.com/photo-1551782450-a2132b4ba21d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YnVyZ2VyfGVufDB8MHwwfGJsYWNrfA%3D%3D&auto=format&fit=crop&w=700&q=60" alt="">
+                    <div class="info">
+                        <h3 class="title">cheese Burger</h3>
+                        <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                        <div class="flex">
+                            <h4 class="price">15%</h4>
+                            <div class="button"><i class="fa fa-shopping-cart"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Filter-item all burger">
+                    <img src="https://images.unsplash.com/photo-1609167921178-e295a98f808f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGJ1cmdlcnxlbnwwfDB8MHxibGFja3w%3D&auto=format&fit=crop&w=700&q=60" alt="">
+                    <div class="info">
+                        <h3 class="title">Pizza Burger</h3>
+                        <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                        <div class="flex">
+                            <h4 class="price">15%</h4>
+                            <div class="button"><i class="fa fa-shopping-cart"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- mcdonalds -->
+                <div class="Filter-item all mcdonalds">
+                    <img src="https://media.istockphoto.com/photos/french-fries-and-chicken-burger-on-a-wooden-table-food-junk-food-and-picture-id1205589913?b=1&k=20&m=1205589913&s=170667a&w=0&h=wOEtf28Hc9rUbPSz5IYEI_04YTz1dcCARc9WwWUhZuk=" alt="">
+                    <div class="info">
+                        <h3 class="title">fries mcdonalds</h3>
+                        <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                        <div class="flex">
+                            <h4 class="price">15%</h4>
+                            <div class="button"><i class="fa fa-shopping-cart"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Filter-item all mcdonalds">
+                    <img src="https://images.unsplash.com/photo-1643995529761-20311e27cd88?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGZyaWVzfGVufDB8MHwwfGJsYWNrfA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="">
+                    <div class="info">
+                        <h3 class="title">fries mcdonalds</h3>
+                        <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                        <div class="flex">
+                            <h4 class="price">15%</h4>
+                            <div class="button"><i class="fa fa-shopping-cart"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Filter-item all mcdonalds">
+                    <img src="https://media.istockphoto.com/photos/diverse-keto-dishes-picture-id1280158821?b=1&k=20&m=1280158821&s=170667a&w=0&h=ibwKxBzWcygq6NMKO5FTD-3ljLvwM8E1WVevw7XSmlk=" alt="">
+                    <div class="info">
+                        <h3 class="title">fries Tomato</h3>
+                        <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                        <div class="flex">
+                            <h4 class="price">15%</h4>
+                            <div class="button"><i class="fa fa-shopping-cart"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Filter-item all mcdonalds">
+                    <img src="https://media.istockphoto.com/photos/fried-chicken-and-french-fries-food-background-picture-id1354465330?b=1&k=20&m=1354465330&s=170667a&w=0&h=Yx53dUtrXcVQ8sGckCuKtfMyM4bMgRzrRT7qfBfKlQ4=" alt="">
+                    <div class="info">
+                        <h3 class="title">fries Tomato</h3>
+                        <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                        <div class="flex">
+                            <h4 class="price">15%</h4>
+                            <div class="button"><i class="fa fa-shopping-cart"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Filter-item all mcdonalds">
+                    <img src="https://media.istockphoto.com/photos/fried-chicken-isolated-on-wooden-background-picture-id491046066?k=20&m=491046066&s=612x612&w=0&h=yyIngG3PKasxJmiueNHVza5XaTAeMRUImopQ1ifHv0g=" alt="">
+                    <div class="info">
+                        <h3 class="title">fries Tomato</h3>
+                        <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                        <div class="flex">
+                            <h4 class="price">15%</h4>
+                            <div class="button"><i class="fa fa-shopping-cart"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- KFC -->
+                <div class="Filter-item all kfc">
+                    <img src="https://media.istockphoto.com/photos/crispy-chicken-drumsticks-grilled-kfc-style-with-crackers-picture-id1158156755?b=1&k=20&m=1158156755&s=170667a&w=0&h=IlETleAMZBK75zMIElV894HfgLXmS7c17ZmXlnBrQwI=" alt="">
+                    <div class="info">
+                        <h3 class="title">Chicken Kfc</h3>
+                        <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                        <div class="flex">
+                            <h4 class="price">15%</h4>
+                            <div class="button"><i class="fa fa-shopping-cart"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Filter-item all kfc">
+                    <img src="https://media.istockphoto.com/photos/chicken-nuggets-kfc-style-with-french-fries-mayonnaise-ketchup-and-picture-id1158136322?k=20&m=1158136322&s=612x612&w=0&h=qcfv3H-c5jnFzONxHk7D18e2GHSg1g6gLXO_C-sxRn8=" alt="">
+                    <div class="info">
+                        <h3 class="title">Chicken Kfc</h3>
+                        <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                        <div class="flex">
+                            <h4 class="price">15%</h4>
+                            <div class="button"><i class="fa fa-shopping-cart"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="Filter-item all kfc">
+                    <img src="https://media.istockphoto.com/photos/style-fried-chicken-nuggets-takeaway-in-black-container-picture-id1158154394?k=20&m=1158154394&s=612x612&w=0&h=v1kKHazPnA9bkvlEcWm7kKU23koIosytVQYNyX5BBiQ=" alt="">
+                    <div class="info">
+                        <h3 class="title">Roast Chicken Kfc</h3>
+                        <p>Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque</p>
+                        <div class="flex">
+                            <h4 class="price">15%</h4>
+                            <div class="button"><i class="fa fa-shopping-cart"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+   </div>
+   <!-- Image adn text -->
+   <div class="event">
+       <div class="container">
+           <div class="row">
+               <div class="col">
+                   <img src="https://images.unsplash.com/photo-1599731316520-e9578fea922a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGZvb2R8ZW58MHwwfDB8YmxhY2t8&auto=format&fit=crop&w=500&q=60" alt="">
+               </div>
+               <div class="col">
+                   <h2>We are mariam</h2>
+                   <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All</p>
+                   <button class="btn">Read More</button>
+               </div>
+           </div>
+       </div>
+   </div>
+
+   <!-- Contact -->
+   <div class="contact">
+       <div class="container">
+           <div class="row">
+               <div class="col book">
+                   <h1>Book a table</h1>
+                   <form>
+                        <input type="text" placeholder="Your Name">
+                        <input type="text" placeholder="Phone Number">
+                        <input type="email" placeholder="Your Email">
+                        <input type="text" placeholder="How Many Person">
+                        <input type="date" placeholder="YYYY/MM/DD">
+                        <button class="btn">Book Now</button>
+                   </form>
+               </div>
+               <div class="col col-2">
+                   <img src="https://media.istockphoto.com/photos/map-of-south-africa-republic-picture-id510630336?b=1&k=20&m=510630336&s=170667a&w=0&h=UApQPiTegzL7jfTASCVv7zTzZiYKhlGGTAhkW9gQ22k=" alt="">
+               </div>
+           </div>
+       </div>
+   </div>
+
+   <!-- Testimonials -->
+   <div class="testimonials">
+       <div class="container">
+           <div class="titles">
+               <h1>What our clients says</h1>
+            </div>
+            <div class="btn-controll">
+                <button class="btnn prev"><i class="fa fa-angle-left"></i></button>
+                <button class="btnn next"><i class="fa fa-angle-right"></i></button>
+            </div>
+           <div class="wrapper">
+               <div class="user">
+                   <div class="details">
+                       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos voluptatem nulla fugit iste maiores, placeat ad nobis. Magnam culpa praesentium beatae eaque, nam saepe repellat facere. Blanditiis quam laboriosam eum repellendus. Dolore quibusdam maiores perspiciatis blanditiis ipsa voluptas placeat molestias.</p>
+                       <h4 class="name">Mr. Mike Oswand</h4>
+                       <p class="job">8+y costumer</p>
+                    </div>
+                    <img src="https://media.istockphoto.com/photos/young-businesswoman-eating-salad-in-lunch-room-and-using-phone-picture-id1183997020?b=1&k=20&m=1183997020&s=170667a&w=0&h=-iEh1bZ5fDMt6tlO8XuAYzbh0xNfDmBNOGH7VU2IWtM=" alt="">
+               </div>
+               <div class="user">
+                   <div class="details">
+                       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos voluptatem nulla fugit iste maiores, placeat ad nobis. Magnam culpa praesentium beatae eaque, nam saepe repellat facere. Blanditiis quam laboriosam eum repellendus. Dolore quibusdam maiores perspiciatis blanditiis ipsa voluptas placeat molestias.</p>
+                       <h4 class="name">Mr. Mike Oswand</h4>
+                       <p class="job">8+y costumer</p>
+                    </div>
+                    <img src="https://media.istockphoto.com/photos/young-businesswoman-eating-salad-in-lunch-room-and-using-phone-picture-id1183997020?b=1&k=20&m=1183997020&s=170667a&w=0&h=-iEh1bZ5fDMt6tlO8XuAYzbh0xNfDmBNOGH7VU2IWtM=" alt="">
+               </div>
+               <div class="user">
+                   <div class="details">
+                       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos voluptatem nulla fugit iste maiores, placeat ad nobis. Magnam culpa praesentium beatae eaque, nam saepe repellat facere. Blanditiis quam laboriosam eum repellendus. Dolore quibusdam maiores perspiciatis blanditiis ipsa voluptas placeat molestias.</p>
+                       <h4 class="name">Mr. Mike Oswand</h4>
+                       <p class="job">8+y costumer</p>
+                    </div>
+                    <img src="https://media.istockphoto.com/photos/young-businesswoman-eating-salad-in-lunch-room-and-using-phone-picture-id1183997020?b=1&k=20&m=1183997020&s=170667a&w=0&h=-iEh1bZ5fDMt6tlO8XuAYzbh0xNfDmBNOGH7VU2IWtM=" alt="">
+               </div>
+           </div>
+       </div>
+   </div>
+
+   <!-- Footer -->
+   <div class="footer">
+       <div class="container">
+           <div class="wrapper">
+               <div class="col">
+                   <h1>Mariam F.F.</h1>
+                   <p>Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with</p>
+                   <div class="icons">
+                       <span><i class="fa fa-facebook"></i></span>
+                       <span><i class="fa fa-twitter"></i></span>
+                       <span><i class="fa fa-instagram"></i></span>
+                       <span><i class="fa fa-pinterest"></i></span>
+                   </div>
+               </div>
+               <div class="col">
+                   <h1>contact us</h1>
+                   <div class="conttact">
+                       <i class="fa fa-map-marker"></i>
+                       <span>Location</span>
+                   </div>
+                   <div class="conttact">
+                       <i class="fa fa-phone"></i>
+                       <span>0677364545</span>
+                   </div>
+                   <div class="conttact">
+                       <i class="fa fa-envelope"></i>
+                       <span>mariamff.food@gmail.com</span>
+                   </div>
+               </div>
+               <div class="col">
+                    <h1>Opening Hours</h1>
+                    <p>Everyday</p>
+                    <p>10.00am - 10.00pm</p>
+               </div>
+           </div>
+           <div class="bottom">
+               <p>&copy; 2022; All rights reserved for mariam website</p>
+           </div>
+       </div>
+   </div>
+    
+    <script src="./app.js"></script>
+    <script src="https://kit.fontawesome.com/405f30ee9a.js"></script>
+</body>
+</html>
