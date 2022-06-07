@@ -1,0 +1,16 @@
+.about{
+    background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),
+    url(https://media.istockphoto.com/photos/focus-on-food-safety-happy-chef-cook-standing-in-commerical-kitchen-picture-id1142169917?k=20&m=1142169917&s=612x612&w=0&h=cHi2SDNV_HWUTO-_fKeJax9jHOEKM4oNcqA6FMSUgus=) no-repeat center center/cover;
+    
+}
+.about-section{
+    padding: 100px 0;
+    // min-height: 80vh;
+    background: rgba(0,0,0,.9);
+    .container{
+        height: 100%;
+        .row{
+            height: 100%;
+        }
+    }
+}
